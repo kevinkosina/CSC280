@@ -92,10 +92,4 @@ public class MaxPQ implements HeapInterface {
             heapify(size, largest); // recursively heapify the affected subtree
         }
     }
-
-    public int getSize() {
-        return heap.size();
-    }
-
-
 }
